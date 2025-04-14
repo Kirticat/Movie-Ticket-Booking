@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Movie Ticket Booking</title>
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #f2f2f2;
+            }
+    
+            header {
+                background-color: #333;
+                color: #fff;
+                padding: 10px;
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+    
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+    
+            h1 {
+                font-size: 30px;
+                font-weight: bold;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+    
+            .movie {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                background-color: #fff;
+                border-radius: 10px;
+                padding: 10px;
+                box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            }
+    
+            .movie img {
+                max-width: 150px;
+                margin-right: 20px;
+                border-radius: 10px;
+            }
+    
+            .movie h2 {
+                font-size: 24px;
+                font-weight: bold;
+                margin: 0;
+            }
+    
+            .movie p {
+                font-size: 18px;
+                margin-top: 10px;
+            }
+    
+            .book-button {
+                background-color: #333;
+                color: #fff;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                font-size: 18px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: background-color 0.2s ease-in-out;
+                margin-left: auto;
+            }
+    
+            .book-button:hover {
+                background-color: #222;
+            }
+    
+            .book-button:active {
+                background-color: #111;
+            }
+    
+            .book-button:focus {
+                outline: none;
+            }
+    
+            .book-button[disabled] {
+                background-color: #999;
+                cursor: not-allowed;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            Movie Ticket Booking
+        </header>
+        <div class="container">
+            <h1>Select a movie to book tickets</h1>
+            <div class="movie">
+                <img src="https://th.bing.com/th/id/OIP.Z52l9ToWdtmMrcVPLzlhGgAAAA?pid=ImgDet&w=460&h=690&rs=1" alt="Movie Poster">
+                <div>
+                    <h2>Brahmastra</h2>
+                    <p>This is the story of Shiva who sets out in search of love and self-discovery. During his journey, he has to face many evil forces that threaten our existence.</p>
+                    <button class="book-button" onclick="window.location.href='booking.html'">Book Tickets</button>
+
+                </div>
+            </div>
+            <div class="movie">
+                <img src="https://www.newsindiatimes.com/wp-content/uploads/2021/08/Poster-for-Pathan-Photo-Twitter.jpg" alt="Movie Poster">
+                <div>
+                    <h2>Pathan</h2>
+                    <p>An Indian agent races against a doomsday clock as a ruthless mercenary, with a bitter vendetta, mounts an apocalyptic attack against the country.</p>
+                    <button class="book-button" onclick="window.location.href='booking.html'">Book Tickets</button>
+
+                </div>
+            </div>
+            <div class="movie">
+                <img src="https://th.bing.com/th/id/R.1ab92a8c481764022314847775ae99a8?rik=Z2E7vChFyy%2f8fA&riu=http%3a%2f%2f2.bp.blogspot.com%2f-l9HC8EyqPp0%2fUhCbs7CtdaI%2fAAAAAAAAAHs%2fUNQYBFFQmDI%2fs1600%2fbollywood-chennai-express-poster-1.jpg&ehk=yL1aGXsVxjXXcU3gHcTWXMoUTzhhFhVSA44qcWBP%2bis%3d&risl=&pid=ImgRaw&r=0" alt="Movie Poster">
+                <div>
+                    <h2>Chennai Express</h2>
+                    <p>A man heading towards Rameshwaram via Chennai express to immerse his late grandfather's ashes unwillingly gets caught amidst goons after helping their boss's daughter and them board the train.</p>
+                    <button class="book-button" onclick="window.location.href='booking.html'">Book Tickets</button>
+
+                </div>
+            </div>
+            <div class="movie">
+                <img src="https://th.bing.com/th/id/OIP.v13dfu-vvs9Fm8uP8lyzmgHaLH?pid=ImgDet&rs=1" alt="Movie Poster">
+                <div>
+                    <h2>DDLJ</h2>
+                    <p>When Raj meets Simran in Europe, it isn't love at first sight but when Simran moves to India for an arranged marriage, love makes its presence felt.</p>
+                    <button class="book-button" onclick="window.location.href='booking.html'">Book Tickets</button>
+
+                </div>
+            </div>
+            <div class="movie">
+                <img src="https://th.bing.com/th/id/R.cb7359d1dfd6bb666c16b5f6373788f5?rik=a2cO6OvovibUhg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-N1g-uuBZ-2w%2fVfriwJim0VI%2fAAAAAAAAD9U%2fDs08g4C5neA%2fs1600%2fom_shanti_om_ver3_xlg.jpg&ehk=BRIa4GNxe1%2fOWrUhyEHdzVwBuM4PJ1dZ7D0jWhn0GG8%3d&risl=&pid=ImgRaw&r=0" alt="Movie Poster">
+                <div>
+                    <h2>Om Shanti Om</h2>
+                    <p>In the 1970s, Om, an aspiring actor, is murdered, but is immediately reincarnated into the present day. He attempts to discover the mystery of his demise and find Shanti, the love of his previous life.</p>
+                    <button class="book-button" onclick="window.location.href='booking.html'">Book Tickets</button>
+
+                </div>
+            </div>
+        </body>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- axios cdn -->  
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- javascript file -->
+    <script src="config.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        getMovies2();
+    </script>
+</body>
+</html>
